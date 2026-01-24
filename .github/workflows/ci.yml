@@ -25,11 +25,7 @@ jobs:
           path: ~/.cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material
-      - run: pwd
-      - run: ls
-      - run: cd ..
-      - run: ls
-      - run: cd raresite
-      - run: ls
-      - run: mkdocs gh-deploy --force
+      - run: |
+          pip install mkdocs-material
+          cd raresite
+          mkdocs gh-deploy --force
