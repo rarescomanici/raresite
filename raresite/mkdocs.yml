@@ -2,3 +2,5 @@ site_name: Rares' Homepage!
 site_url: https://raresite/
 theme:
   name: material
+nav:
+  - Home: index.md
