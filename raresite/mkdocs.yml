@@ -1,1 +1,4 @@
 site_name: Rares' Homepage!
+site_url: https://rarescomanici.github.io/
+theme:
+  name: material
