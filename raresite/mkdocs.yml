@@ -1,6 +1,15 @@
 site_name: Rares' Homepage!
 site_url: https://raresite/
+
 theme:
   name: material
+  palette:
+    scheme: custom-theme
+
 nav:
   - Home: index.md
+
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - js/extra.js
